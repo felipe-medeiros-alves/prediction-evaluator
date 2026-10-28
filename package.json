@@ -1,0 +1,22 @@
+{
+  "name": "prediction-evaluator",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "workspaces": [
+    "packages/core",
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "build:core": "npm run build -w @prediction-evaluator/core",
+    "build": "npm run build:core && npm run build -w @prediction-evaluator/api && npm run build -w @prediction-evaluator/web",
+    "test": "npm run build:core && npm run test -w @prediction-evaluator/core && npm run test -w @prediction-evaluator/api",
+    "typecheck": "npm run build:core && npm run typecheck --workspaces --if-present",
+    "demo": "npm run build:core && node packages/core/dist/cli.js",
+    "dev:api": "npm run build:core && npm run dev -w @prediction-evaluator/api",
+    "dev:web": "npm run dev -w @prediction-evaluator/web"
+  }
+}

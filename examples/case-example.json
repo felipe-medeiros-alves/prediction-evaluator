@@ -1,0 +1,10 @@
+{
+  "config": { "classes": ["cat", "dog"], "threshold": 0.7 },
+  "records": [
+    { "id": "R1", "actual": "cat", "probabilities": { "cat": 0.8, "dog": 0.2 } },
+    { "id": "R2", "actual": "dog", "probabilities": { "cat": 0.6, "dog": 0.4 } },
+    { "id": "R3", "actual": "dog", "probabilities": { "cat": 0.7, "dog": 0.3 } },
+    { "id": "R4", "actual": "cat", "probabilities": { "cat": 0.8, "dog": 0.4 } },
+    { "id": "R1", "actual": "cat", "probabilities": { "cat": 0.9, "dog": 0.1 } }
+  ]
+}

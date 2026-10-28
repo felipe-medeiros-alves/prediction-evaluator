@@ -1,0 +1,15 @@
+{
+  "config": { "classes": ["invoice", "estimate", "police_report"], "threshold": 0.75 },
+  "records": [
+    { "id": "DOC-01", "actual": "invoice", "probabilities": { "invoice": 0.92, "estimate": 0.05, "police_report": 0.03 } },
+    { "id": "DOC-02", "actual": "estimate", "probabilities": { "invoice": 0.4, "estimate": 0.55, "police_report": 0.05 } },
+    { "id": "DOC-03", "actual": "estimate", "probabilities": { "invoice": 0.8, "estimate": 0.18, "police_report": 0.02 } },
+    { "id": "DOC-04", "actual": "police_report", "probabilities": { "invoice": 0.1, "estimate": 0.15, "police_report": 0.75 } },
+    { "id": "DOC-05", "actual": "invoice", "probabilities": { "invoice": 0.6, "estimate": 0.3, "police_report": 0 } },
+    { "id": "DOC-05", "actual": "invoice", "probabilities": { "invoice": 0.6, "estimate": 0.4, "police_report": 0 } },
+    { "id": "DOC-01", "actual": "estimate", "probabilities": { "invoice": 0.1, "estimate": 0.85, "police_report": 0.05 } },
+    { "id": "DOC-06", "actual": "police_report", "probabilities": { "invoice": 0.1, "estimate": 0.1, "police_report": 0.8 } },
+    { "id": "DOC-07", "actual": "photo", "probabilities": { "invoice": 0.2, "estimate": 0.7, "police_report": 0.1 } },
+    { "id": "DOC-08", "actual": "estimate", "probabilities": { "invoice": 0.45, "estimate": 0.45, "police_report": 0.1 } }
+  ]
+}
