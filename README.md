@@ -4,8 +4,6 @@ A local tool that evaluates pre-computed classifier predictions: for each record
 
 **Focus:** full stack in TypeScript. A pure domain library holds every rule, a NestJS API stores batches and evaluates them, and a Next.js (App Router) UI lets you explore the coverage/accuracy trade-off.
 
-**Time spent:** _fill in before submitting_.
-
 Why this case: the threshold is the line between work that can be automated and work that has to go to a person. Coverage measures how much of the batch gets automated; decision accuracy measures how much of that automation can be trusted. The second sample batch frames it as triaging attachments on insurance claims, where every abstention is a document a human adjuster reviews.
 
 ## Requirements
