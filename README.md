@@ -1,4 +1,4 @@
-# Case 06 — Prediction evaluator with abstentions
+# Prediction evaluator with abstentions
 
 A local tool that evaluates pre-computed classifier predictions: for each record it decides whether the classifier **decided** (and was right or wrong), **abstained** (top probability below the confidence threshold), or whether the record is **invalid** or a **duplicate**. It reports coverage, decision accuracy and a confusion matrix, and shows how those numbers move as the threshold changes.
 
